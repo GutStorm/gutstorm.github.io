@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,10 +25,10 @@
     <!-- Google Optimize Page Hiding -->
     <style>.async-hide { opacity: 0 !important} </style>
     <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-    h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-    (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
     })(window,document.documentElement,'async-hide','dataLayer',4000,
-    {'GTM-5KS982Q':true});</script>
+      {'GTM-5KS982Q':true});</script>
 
     <!-- Google Analytics -->
     <script>
@@ -36,248 +36,242 @@
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-37339465-7', 'auto');
       ga('require', 'GTM-5KS982Q');
       ga('send', 'pageview');
-
     </script>
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Theme JS that runs before your code -->
-    <script src="js/before.js"></script>
-
-    <!-- YOUR JAVASCRIPT GOES IN THIS FILE -->
-    <script src="js/cro-eng-app.js"></script>
-
-    <!-- YOUR CSS GOES IN THIS FILE -->
-    <link href="css/cro-eng-app.css" rel="stylesheet">
+    <script>
+      (function() { window.jQuery(document).on('click touch', '.intro-text a', function() { ga('send', 'event', 'cta', 'click'); })})();
+    </script>
 
 </head>
 
-<body id="page-top" class="index">
+  <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">GutStorm Marketing</a>
-            </div>
+  <!-- Navigation -->
+  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header page-scroll">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+  </button>
+  <a class="navbar-brand page-scroll" href="#page-top">GutStorm Marketing</a>
+  </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav navbar-right">
+  <li class="hidden">
+  <a href="#page-top"></a>
+  </li>
+  <li>
+  <a class="page-scroll" href="#services">Services</a>
+  </li>
+  <li>
+  <a class="page-scroll" href="#portfolio">Portfolio</a>
+  </li>
+  <li>
+  <a class="page-scroll" href="#about">About</a>
+  </li>
+  <li>
+  <a class="page-scroll" href="#team">Team</a>
+  </li>
+  <li>
+  <a class="page-scroll" href="#contact">Contact</a>
+  </li>
+  </ul>
+  </div>
+  <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+  </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome to GutStorm!</div>
-                <div class="intro-heading">Instinct-driven Marketing</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
+  <!-- Header -->
+  <header>
+  <div class="container">
+  <div class="intro-text">
+  <div class="intro-lead-in">Welcome to GutStorm!</div>
+  <div class="intro-heading">Instinct-driven Marketing</div>
+  <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+  </div>
+  </div>
+  </header>
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">GutStorming™</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Feelings First™</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-		    <h4 class="service-heading">Opinions > Data</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Services Section -->
+  <section id="services">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-12 text-center">
+  <h2 class="section-heading">Services</h2>
+  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+  </div>
+  </div>
+  <div class="row text-center">
+  <div class="col-md-4">
+  <span class="fa-stack fa-4x">
+  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+  <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+  </span>
+  <h4 class="service-heading">GutStorming™</h4>
+  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+  </div>
+  <div class="col-md-4">
+  <span class="fa-stack fa-4x">
+  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+  <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+  </span>
+  <h4 class="service-heading">Feelings First™</h4>
+  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+  </div>
+  <div class="col-md-4">
+  <span class="fa-stack fa-4x">
+  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+  <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+  </span>
+  <h4 class="service-heading">Opinions > Data</h4>
+  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+  </div>
+  </div>
+  </div>
+  </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- Portfolio Grid Section -->
+  <section id="portfolio" class="bg-light-gray">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-12 text-center">
+  <h2 class="section-heading">Portfolio</h2>
+  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+  <div class="portfolio-hover">
+  <div class="portfolio-hover-content">
+  <i class="fa fa-plus fa-3x"></i>
+  </div>
+  </div>
+  <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+  <h4>Round Icons</h4>
+  <p class="text-muted">Graphic Design</p>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+  <div class="portfolio-hover">
+  <div class="portfolio-hover-content">
+  <i class="fa fa-plus fa-3x"></i>
+  </div>
+  </div>
+  <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+  <h4>Startup Framework</h4>
+  <p class="text-muted">Website Design</p>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+  <div class="portfolio-hover">
+  <div class="portfolio-hover-content">
+  <i class="fa fa-plus fa-3x"></i>
+  </div>
+  </div>
+  <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+  <h4>Treehouse</h4>
+  <p class="text-muted">Website Design</p>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+  <div class="portfolio-hover">
+  <div class="portfolio-hover-content">
+  <i class="fa fa-plus fa-3x"></i>
+  </div>
+  </div>
+  <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+  <h4>Golden</h4>
+  <p class="text-muted">Website Design</p>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+  <div class="portfolio-hover">
+  <div class="portfolio-hover-content">
+  <i class="fa fa-plus fa-3x"></i>
+  </div>
+  </div>
+  <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+  <h4>Escape</h4>
+  <p class="text-muted">Website Design</p>
+  </div>
+  </div>
+  <div class="col-md-4 col-sm-6 portfolio-item">
+  <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+  <div class="portfolio-hover">
+  <div class="portfolio-hover-content">
+  <i class="fa fa-plus fa-3x"></i>
+  </div>
+  </div>
+  <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+  </a>
+  <div class="portfolio-caption">
+  <h4>Dreams</h4>
+  <p class="text-muted">Website Design</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+  <!-- About Section -->
+  <section id="about">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-12 text-center">
+  <h2 class="section-heading">About</h2>
+  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col-lg-12">
+  <ul class="timeline">
+  <li>
+  <div class="timeline-image">
+  <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+  </div>
+  <div class="timeline-panel">
+  <div class="timeline-heading">
+  <h4>2009-2011</h4>
+  <h4 class="subheading">Our Humble Beginnings</h4>
+  </div>
+  <div class="timeline-body">
+  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+  </div>
+  </div>
+  </li>
+  <li class="timeline-inverted">
+  <div class="timeline-image">
+  <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+  </div>
+  <div class="timeline-panel">
+  <div class="timeline-heading">
+  <h4>March 2011</h4>
+  <h4 class="subheading">An Agency is Born</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
